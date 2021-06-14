@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.meaning {
+  height: 5vh;
+  color: Brown;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+}
+.emojisList {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
