@@ -19,7 +19,7 @@ export default function App() {
     var inputEmoji = event.target.value;
     setMeaning(emojiDict[inputEmoji]);
     if (emojiDict[inputEmoji] === undefined) {
-      setMeaning("Sorry..We don't have this in out database.. 😔");
+      setMeaning("Sorry..We don't have this in our database.. 😔");
     }
     if (inputEmoji === "") {
       setMeaning("");
