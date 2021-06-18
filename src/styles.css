@@ -1,11 +1,18 @@
+body {
+  background-color: rgb(223, 219, 219);
+  font-family: cursive;
+}
+
 .App {
-  font-family: sans-serif;
+  padding-top: 10%;
   text-align: center;
 }
 
 input {
   padding: 0.5rem;
-  width: 50%;
+  width: 40%;
+  font-family: cursive;
+  outline: none;
 }
 
 .meaning {
@@ -18,4 +25,10 @@ input {
   font-size: 1.5rem;
   padding: 0.5rem;
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .meaning {
+    font-size: 10px;
+  }
 }

@@ -7,10 +7,10 @@ var emojiDict = {
   "🥡": "TAKEOUT BOX",
   "❤️": "LOVE",
   "😑": "ANNOYANCE",
-  "😀": "GRNNING FACE"
+  "😀": "GRINNING FACE"
 };
 
-var emojisList = Object.keys(emojiDict);
+var emojisList = ["😊", "😳", "😔", "❤️", "😑", "😀"];
 
 export default function App() {
   var [meaning, setMeaning] = useState("");
@@ -19,7 +19,7 @@ export default function App() {
     var inputEmoji = event.target.value;
     setMeaning(emojiDict[inputEmoji]);
     if (emojiDict[inputEmoji] === undefined) {
-      setMeaning("Sorry..We don't have this in our database.. 😔");
+      setMeaning("Sorry..We don't have this in out database..😔");
     }
     if (inputEmoji === "") {
       setMeaning("");
@@ -33,7 +33,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Emoji Interpreter</h1>
-      <input onChange={emojiInputHandler} />
+      <input placeholder="Put Your Emoji Here" onChange={emojiInputHandler} />
       <div class="meaning">
         <h2>{meaning}</h2>
       </div>
