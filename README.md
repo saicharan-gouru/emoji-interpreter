@@ -1,2 +1,10 @@
 # emoji-interpreter
-Created with CodeSandbox
+
+## Technologies
+ * React JS
+ 
+## Screenshot
+
+![Screenshot](screenshot.PNG)
+ 
+ 
