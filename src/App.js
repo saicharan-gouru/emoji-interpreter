@@ -7,10 +7,15 @@ var emojiDict = {
   "🥡": "TAKEOUT BOX",
   "❤️": "LOVE",
   "😑": "ANNOYANCE",
-  "😀": "GRINNING FACE"
+  "😀": "GRINNING FACE",
+  "🤣": "ROLF",
+  "😂": "LAUGHING",
+  "😎": "COOL",
+  "😴": "SLEEPY",
+  "☹": "SAD"
 };
 
-var emojisList = ["😊", "😳", "😔", "❤️", "😑", "😀"];
+var emojisList = ["😊", "😳", "😔", "❤️", "😑", "😀", "😴"];
 
 export default function App() {
   var [meaning, setMeaning] = useState("");
@@ -32,16 +37,16 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Emoji Interpreter</h1>
+      <h1>🤩 Know Your Emotions 🤩</h1>
       <input placeholder="Put Your Emoji Here" onChange={emojiInputHandler} />
-      <div class="meaning">
+      <div className="meaning">
         <h2>{meaning}</h2>
       </div>
       <h2>Emojis We Know</h2>
       {emojisList.map((emoji) => {
         return (
           <span
-            class="emojisList"
+            className="emojisList"
             key={emoji}
             onClick={() => emojiClickHandler(emoji)}
           >
