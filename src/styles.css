@@ -1,9 +1,8 @@
 body {
   background-color: rgb(223, 219, 219);
   font-family: cursive;
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fvectors%2Fabstract-blur-background-rainbow-mesh-gradient-color-power-pattern-vector-id1130076181%3Fk%3D6%26m%3D1130076181%26s%3D170667a%26w%3D0%26h%3Dl8gqEBkqAnyBn_JpdvnlrYPEMTXXNv12kggX-cp3MxE%3D&f=1&nofb=1);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
 .App {
